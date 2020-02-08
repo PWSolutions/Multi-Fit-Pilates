@@ -9,7 +9,6 @@ const NotFound = () => {
         <Layout>
             <Head title="Not Found"/>
             <h1>Page not found</h1>
-            <p><Link to="/"></Link></p>
         </Layout>
     )
 }
