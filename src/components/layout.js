@@ -1,21 +1,22 @@
 import React from 'react'
 import Header from './header'
-import TopMenu from './top-menu'
 import Footer from './footer'
 import '../styles/index.scss'
 
-import LayoutStyles from './layout.module.scss'
+//import LayoutStyles from './layout.module.scss'
+
+import SEO from './seo'
 
 const Layout = (props) => {
     return (
-        <div className={LayoutStyles.container}>
-            <div className={LayoutStyles.content}>
-                <Header></Header>
-                <TopMenu></TopMenu>
-                {props.children}
-            </div>
+
+        <div class="container">
+            <SEO />
+            <Header></Header>
+            {props.children}
             <Footer></Footer>
         </div>
+
     )
 }
 
