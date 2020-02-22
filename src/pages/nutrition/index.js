@@ -19,13 +19,24 @@ const NutritionIndexPage = () => {
                         <div class="card-content">
                             <h3>Nutrition</h3>
                         </div>
+
                         <div class="card-tabs">
-                            <ul class="tabs tabs-fixed-width">
-                                <li class="tab"><a class="active" href="#test4">What We Offer</a></li>
-                                <li class="tab"><a href="#test5">Weekly Schedule</a></li>
-                                <li class="tab"><a href="#test6">Meet the Staff</a></li>
-                            </ul>
+                            <div class="hide-on-small-only">
+                                <ul class="tabs tabs-fixed-width">
+                                    <li class="tab"><a class="active" href="#test4">What We Offer</a></li>
+                                    <li class="tab"><a href="#test5">Weekly Schedule</a></li>
+                                    <li class="tab"><a href="#test6">Meet the Staff</a></li>
+                                </ul>
+                            </div>
+                            <div class="hide-on-med-and-up">
+                                <ul class="tabs">
+                                    <li class="tab"><a class="active" href="#test4">What We Offer</a></li>
+                                    <li class="tab"><a href="#test5">Weekly Schedule</a></li>
+                                    <li class="tab"><a href="#test6">Meet the Staff</a></li>
+                                </ul>
+                            </div>
                         </div>
+
                         <div class="card-content grey lighten-4">
                             <div id="test4">
                                 <div class="row">

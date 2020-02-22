@@ -34,7 +34,7 @@ const Header = () => {
         <nav>
           <div class="nav-wrapper purple darken-4">
             <ul id="nav-mobile" class="right">
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons right">menu</i></a></li>
+              <li><a class="dropdown-trigger" href="#" data-target="dropdown1"><i class="material-icons right">menu</i></a></li>
             </ul>
           </div>
         </nav>
