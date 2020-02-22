@@ -38,6 +38,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
     `)
 
     res.data.allMarkdownRemark.edges.forEach((edge) => {
+
+      console.log("Creating Blog Post: {0}", edge.node.fields.slug )
+
       createPage({
         component: blogTemplate,
         path: `/blog/${edge.node.fields.slug}`,
@@ -63,6 +66,8 @@ module.exports.createPages = async ({ graphql, actions }) => {
     }`)
 
     res.data.allContentfulBlogPost.edges.forEach((edge) => {
+      console.log("CMS Post: {0}", edge.node.slug )
+
       createPage({
         component: cmsTemplate,
         path: `/cms/${edge.node.slug}`,
