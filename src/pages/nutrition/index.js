@@ -30,9 +30,9 @@ const NutritionIndexPage = () => {
                             </div>
                             <div class="hide-on-med-and-up">
                                 <ul class="tabs">
-                                    <li class="tab"><a class="active" href="#test4">What We Offer</a></li>
-                                    <li class="tab"><a href="#test5">Weekly Schedule</a></li>
-                                    <li class="tab"><a href="#test6">Meet the Staff</a></li>
+                                    <li class="tab"><a class="active" href="#test4">Info</a></li>
+                                    <li class="tab"><a href="#test5">Timetable</a></li>
+                                    <li class="tab"><a href="#test6">Staff</a></li>
                                 </ul>
                             </div>
                         </div>
