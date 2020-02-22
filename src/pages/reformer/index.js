@@ -7,9 +7,11 @@ import TeamUpCalendar from "../../components/team-up-calendar"
 const ReformerIndexPage = () => {
     return (
         <div>
-           <Layout>
+            <Layout>
                 <Head title="Reformer" />
-                <TopMenu></TopMenu>
+                <div class="hide-on-small-only">
+                    <TopMenu></TopMenu>
+                </div>
                 <div class="row">
 
                     <div class="card extra-large">
@@ -37,9 +39,13 @@ const ReformerIndexPage = () => {
                             </div>
                             <div id="test5">
                                 <div class="row">
-                                    
                                     <div class="col s12">
-                                        <TeamUpCalendar/>
+                                        <div class="hide-on-med-and-up">
+                                            <a href="/mobile/calendar" class="waves-effect waves-light btn"><i class="material-icons left">today</i>View Mobile Timetable</a>
+                                        </div>
+                                        <div class="hide-on-small-only">
+                                            <TeamUpCalendar />
+                                        </div>
                                     </div>
                                 </div></div>
                             <div id="test6">

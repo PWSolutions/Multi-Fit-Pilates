@@ -8,7 +8,9 @@ const FloorMatIndexPage = () => {
     return (
         <div>
             <Layout>
-                <TopMenu></TopMenu>
+                <div class="hide-on-small-only">
+                    <TopMenu></TopMenu>
+                </div>
                 <Head title="Floor Mat" />
                 <div class="row">
 
@@ -18,11 +20,20 @@ const FloorMatIndexPage = () => {
                             <h3>Floor Mat Pilates</h3>
                         </div>
                         <div class="card-tabs">
-                            <ul class="tabs tabs-fixed-width">
-                                <li class="tab"><a class="active" href="#test4">What is Floor Mat Pilates</a></li>
-                                <li class="tab"><a href="#test5">Class Timetable</a></li>
-                                <li class="tab"><a href="#test6">Meet the Staff</a></li>
-                            </ul>
+                            <div class="hide-on-small-only">
+                                <ul class="tabs tabs-fixed-width">
+                                    <li class="tab"><a class="active" href="#test4">What is Floor Mat Pilates</a></li>
+                                    <li class="tab"><a href="#test5">Class Timetable</a></li>
+                                    <li class="tab"><a href="#test6">Meet the Staff</a></li>
+                                </ul>
+                            </div>
+                            <div class="hide-on-med-and-up">
+                                <ul class="tabs">
+                                    <li class="tab"><a class="active" href="#test4">What is Floor Mat Pilates</a></li>
+                                    <li class="tab"><a href="#test5">Class Timetable</a></li>
+                                    <li class="tab"><a href="#test6">Meet the Staff</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="card-content grey lighten-4">
                             <div id="test4">
@@ -37,9 +48,14 @@ const FloorMatIndexPage = () => {
                             </div>
                             <div id="test5">
                                 <div class="row">
-                                    
+
                                     <div class="col s12">
-                                        <TeamUpCalendar/>
+                                        <div class="hide-on-med-and-up">
+                                            <a href="/mobile/calendar" class="waves-effect waves-light btn"><i class="material-icons left">today</i>View Mobile Timetable</a>
+                                        </div>
+                                        <div class="hide-on-small-only">
+                                            <TeamUpCalendar />
+                                        </div>
                                     </div>
                                 </div></div>
                             <div id="test6">
