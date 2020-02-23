@@ -17,8 +17,16 @@ const Header = () => {
 
   return (
     <div>
-      
+
       <div class="hide-on-med-and-up">
+        <nav>
+          <div class="nav-wrapper purple darken-4">
+            <ul class="left">
+              <li><a class="dropdown-trigger" href="#" data-target="dropdown1"><i class="material-icons right">menu</i></a></li>
+            </ul>
+          </div>
+        </nav>
+
         <ul id="dropdown1" class="dropdown-content small">
           <li><a href="/nutrition">Contat Us</a></li>
           <li><Link to="/blog">Blogs</Link></li>
@@ -31,13 +39,7 @@ const Header = () => {
           <li><Link to="/nutrition">Nutrition</Link></li>
 
         </ul>
-        <nav>
-          <div class="nav-wrapper purple darken-4">
-            <ul class="left">
-              <li><a class="dropdown-trigger" href="#" data-target="dropdown1"><i class="material-icons right">menu</i></a></li>
-            </ul>
-          </div>
-        </nav>
+
       </div>
 
 
