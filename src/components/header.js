@@ -18,16 +18,10 @@ const Header = () => {
   return (
     <div>
 
-      <div class="hide-on-med-and-up">
-        <nav class="nav-wrapper purple darken-4">
-          <ul>
-            <li>
-              <a class='dropdown-trigger' href='#' data-target='dropdown1'><i class="material-icons right">menu</i></a>
-            </li>
-          </ul>
-        </nav>
+      <div class="hide-on-med-and-up card-panel purple darken-4">
+        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="material-icons right">menu</i></a>
 
-        <ul id='dropdown1' class='dropdown-content'>
+        <ul id='dropdown1' class='dropdown-content purple darken-4'>
           <li><a href="#!">one</a></li>
           <li><a href="#!">two</a></li>
           <li class="divider" tabindex="-1"></li>
