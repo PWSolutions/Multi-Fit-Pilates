@@ -19,27 +19,16 @@ const Header = () => {
     <div>
 
       <div class="hide-on-med-and-up">
-        <nav>
-          <div class="nav-wrapper purple darken-4">
-            <ul class="left">
-              <li><a class="dropdown-trigger" href="#" data-target="dropdown1"><i class="material-icons right">menu</i></a></li>
-            </ul>
-          </div>
-        </nav>
+        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
 
-        <ul id="dropdown1" class="dropdown-content small">
-          <li><a href="/nutrition">Contat Us</a></li>
-          <li><Link to="/blog">Blogs</Link></li>
-          <li><Link to="/cms">Sale Items</Link></li>
-
-          <li class="divider"></li>
-
-          <li><a href="/floormat">Floor Mat</a></li>
-          <li><Link to="/reformer">Reformer</Link></li>
-          <li><Link to="/nutrition">Nutrition</Link></li>
-
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
         </ul>
-
       </div>
 
 
