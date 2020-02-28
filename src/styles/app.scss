@@ -1,4 +1,24 @@
 
+.row.thin{
+  max-height: 10px !important;
+  padding: 0;
+  margin: 0 0 10px 0;
+  line-height: 0;
+}
+
+.logo-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  padding-left: 10px;
+  color: yellow;
+}
+
+.logo-sub-text{
+  font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+  font-size: xx-large;
+  padding-left: 10px;
+  color: white;
+}
 
 .footer-copyright {  
   position: absolute;
@@ -30,4 +50,9 @@
 .dropdown-content{
   width: max-content !important;
   height:auto !important;
+}
+
+.af-step-next button[type=submit]{
+
+  background: #4a148c  !important;
 }

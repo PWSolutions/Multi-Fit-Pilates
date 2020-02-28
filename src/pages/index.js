@@ -11,14 +11,9 @@ const IndexPage = () => {
         <Layout>
             <Head title="Home" />
 
-            {/*  <div class="carousel carousel-slider">
-                <a class="carousel-item" href="/floormat">
-                    <img src={`../../floorpilates.jpeg`} />
-                </a>
-                <a class="carousel-item" href="#two!"><img src={`../../reformer.jpeg`} /></a>
-                <a class="carousel-item" href="#three!"><img src={`../../nutrition.jpeg`} /></a>
-            </div>
-*/}
+            <h3>Welcome to Multi-Fit Pilates. </h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis metus vitae tincidunt condimentum. Curabitur sed scelerisque metus. Mauris ultrices dui id est aliquam pretium. Sed tellus sem, egestas eu rhoncus ut, aliquet sed elit. </p>
+
             <div class="row">
                 <div class="col m4">
                     <div class="card large">

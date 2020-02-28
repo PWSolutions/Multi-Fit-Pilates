@@ -17,6 +17,7 @@ module.exports = {
     ]
   },
   plugins: [
+    'gatsby-plugin-arengu-forms',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
