@@ -19,10 +19,8 @@ const Header = () => {
     <div>
 
       <nav class="hide-on-med-and-up white z-depth-0">
-            <a href="/" class="brand-logo left"> <img class="responsive-img small-logo" src={`../../logo.png`}></img> </a>
-      <a href="#" data-target="dropdown1" class="sidenav-trigger purple-text right"><i class="material-icons">menu</i></a>
 
-        <ul id='dropdown1' class='dropdown-content'>
+        <ul id="dropdown1" class="dropdown-content purple-text">
           <li><a href="/contact">Contat Us</a></li>
           <li><a href="/blog">Blogs</a></li>
           <li><a href="/cms">Sale Items</a></li>
@@ -33,6 +31,14 @@ const Header = () => {
           <li><a href="/reformer">Reformer</a></li>
           <li><a href="/nutrition">Nutrition</a></li>
         </ul>
+        <nav class="white z-depth-0">
+          <div class="nav-wrapper">
+          <a href="/" class="brand-logo left"> <img class="responsive-img small-logo" src={`../../logo.png`}></img> </a>
+            <ul class="right ">
+              <li><a class="dropdown-trigger purple-text" href="#!" data-target="dropdown1"><i class="material-icons left">menu</i></a></li>
+            </ul>
+          </div>
+        </nav>
       </nav>
 
 

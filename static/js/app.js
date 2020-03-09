@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
   $('.modal').modal();
-  $(".dropdown-trigger").dropdown();
+  $(".dropdown-trigger").dropdown({ hover: true });
   $('.tabs').tabs();
   
   $('.carousel.carousel-slider').carousel({
